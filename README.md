@@ -1,4 +1,4 @@
-# Nfc-Read-Graduation-Project
+# Nfc Okuma Mezuniyet Projesi
 Fırat Üniversitesi son sınıf bitirme proje ödevim. Android telefonlar içindir.
 
 # Android telefonlar içindir.
