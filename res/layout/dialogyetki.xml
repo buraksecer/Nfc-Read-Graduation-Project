@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/dialogKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Admin Name?"
+        tools:ignore="TextFields,HardcodedText" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/dialogPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dialogKullaniciAdi"
+        android:ems="10"
+        android:hint="Password?"
+        android:inputType="textPassword"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dialogGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dialogPassword"
+        android:background="@drawable/buttongiris"
+        android:text="Yetkilendir..."
+        tools:ignore="HardcodedText" />
+      <Button
+        android:id="@+id/geriYetki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dialogGiris"
+        android:background="@drawable/buttongiris"
+        android:text="Geri"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

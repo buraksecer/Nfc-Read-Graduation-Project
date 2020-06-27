@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NfcOkutOgren</string>
+    <string name="hello_world">NFC OKUTMA EKRANI</string>
+    <string name="kayitliUrunler">KAYITLI ÜRÜNLER EKRANI</string>
+    <string name="appName">NFC Ürün Bilgi Sistemi</string>
+    <string name="explanation">-Bu Uygulamanın Amacı Kullanıcıların Daha Kaliteli Ürün
+    Alması İçin; Ürünleri Temassız Nfc Teknolojisi İle Okutup Ürün Bilgilerini Uygulama İçinde Kayıt Altında
+    Tutmaktır.</string>
+    <string name="enterButton">Uygulamaya Giriş</string>
+    <string name="introduction">Uygulama Nasıl Kullanılır?</string>
+    <string name="title_activity_nasil_kullanilir">NasilKullanilir</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="end">Eğitimi Bitir</string>
+    <string name="title_activity_egitim">NfcOkut</string>
+    <string name="nfcOkutKayitAc">Kayıtlı Ürünler</string>
+    <string name="title_activity_main_activity2">Eğitim</string>
+    <string name="title_activity_kayitli_urunler">KayitliUrunler</string>
+    <string name="backtomain">GERİ</string>
+    <string name="title_activity_urun_ekle">UrunEkle</string>
+	 <string name="urunekle">Ürün Ekle</string>
+	 <string name="urunekleButton">Ekle</string>
+	  <string name="intro_message">HELLO WORLD!</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+</resources>

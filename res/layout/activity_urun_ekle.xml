@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56026E"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf,UselessParent" >
+
+        <EditText
+            android:id="@+id/urunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün Adı:"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+   <requestFocus />
+
+        <EditText
+            android:id="@+id/urunSKT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün Son Kullanma Tarihi:"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" >
+         
+        </EditText>
+
+        <EditText
+            android:id="@+id/urunUT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün Üretim Tarihi:"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/urunİcindekiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün İçindekiler:"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/urunBesinDegeri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün Besin Değeri:(Kalori Cinsinden)"
+            android:inputType="numberSigned"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+ <EditText
+            android:id="@+id/urunBarkod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="Ürün Barkod Numarası:"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/urunEkleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttongiris"
+            android:textColor="#FFFFFF"
+            android:text="@string/urunekleButton" />
+
+        <Button
+            android:id="@+id/geriButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geri"
+             android:background="@drawable/buttongiris"
+             android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>
